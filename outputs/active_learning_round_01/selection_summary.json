@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-01T10:55:04.088395+00:00",
+  "active_learning_id": "active_learning_round_01_2026-08-01",
+  "source_candidate_scores": "C:\\Users\\Umut\\Desktop\\Train\\outputs\\active_learning_v1\\candidate_scores.csv",
+  "source_candidate_scores_sha256": "7e51520f97eaa50cfc31818d6c55673be1746b283673deb643465ab48572f449",
+  "inventory_sha256": "ee7056074d5b85bade994fb4152af629a12309cfeec267a0cb22b149e5dee5bf",
+  "selected_images": 34,
+  "selected_scene_groups": 34,
+  "estimated_instances_at_confidence_0_25": 480,
+  "holdout_scene_groups_excluded": [
+    "scene-0003",
+    "scene-0013",
+    "scene-0027",
+    "scene-0028",
+    "scene-0041"
+  ],
+  "source_hash_mismatches": 0,
+  "cvat_zip": "C:\\Users\\Umut\\Desktop\\Train\\data\\annotation_batches\\active_learning_round_01\\steel_billet_active_learning_round_01.zip",
+  "cvat_zip_sha256": "8dcca16dcc5f18f7f8baabf6b7589df8f500a8d9dd10d384ddd87704e212d19c",
+  "preannotations_included": false,
+  "human_annotation_status": "REQUIRED"
+}

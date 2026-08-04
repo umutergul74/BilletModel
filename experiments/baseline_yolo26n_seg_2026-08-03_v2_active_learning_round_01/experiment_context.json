@@ -1,0 +1,80 @@
+{
+  "started_at_utc": "2026-08-03T09:13:52.608650+00:00",
+  "smoke_test": false,
+  "config": {
+    "experiment": {
+      "id": "baseline_yolo26n_seg_2026-08-03_v2_active_learning_round_01",
+      "objective": "Fine-tune the baseline on owner-accepted active-learning round 01 while preserving frozen validation and test scenes.",
+      "dataset_version": "steel_billet_active_learning_round_01_2026-08-03_v3",
+      "annotation_version": "seed_plus_active_learning_round_01_v2_owner_accepted",
+      "split_version": "dataset_audit_v3_preserve_v2_holdouts_seed_20260731",
+      "parent_experiment": "baseline_yolo26n_seg_2026-08-01_v1",
+      "status": "PROVISIONAL_ACTIVE_LEARNING_BASELINE"
+    },
+    "model": {
+      "pretrained": "experiments/baseline_yolo26n_seg_2026-08-01_v1/weights/best.pt",
+      "ultralytics_version": "8.4.114"
+    },
+    "data": {
+      "yaml": "data/processed/yolo_seg_v4_active_learning_round_01/dataset.yaml"
+    },
+    "training": {
+      "epochs": 80,
+      "patience": 20,
+      "image_size": 896,
+      "batch": 2,
+      "workers": 0,
+      "device": 0,
+      "seed": 20260731,
+      "deterministic": true,
+      "optimizer": "AdamW",
+      "initial_learning_rate": 0.0005,
+      "cosine_learning_rate": true,
+      "amp": true,
+      "cache": false
+    },
+    "augmentation": {
+      "hsv_h": 0.01,
+      "hsv_s": 0.2,
+      "hsv_v": 0.2,
+      "degrees": 7.0,
+      "translate": 0.08,
+      "scale": 0.25,
+      "shear": 2.0,
+      "perspective": 0.0003,
+      "flip_up_down": 0.0,
+      "flip_left_right": 0.5,
+      "mosaic": 0.3,
+      "close_mosaic": 10,
+      "mixup": 0.0,
+      "copy_paste": 0.0
+    },
+    "output": {
+      "project": "experiments",
+      "name": "baseline_yolo26n_seg_2026-08-03_v2_active_learning_round_01",
+      "save_period": 10
+    },
+    "holdout": {
+      "validation_used_for_model_selection": true,
+      "test_used_for_model_selection": false,
+      "test_evaluation_status": "LOCKED"
+    }
+  },
+  "config_sha256": "1ecf50631539eba5af2f876b0f31a1ff3b37337a93ccdd2acc82df7d934cbc1d",
+  "dataset_yaml_sha256": "9ed6465c584cf77fa8f31f4ea6e761f86dd117c191dc9d939f4f7f6fb7c8e138",
+  "conversion_summary_sha256": "2492a3e5774b7e1cffe079f81204f2f3249b0fdcd31513da101af664f70c3c32",
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.7.1+cu118",
+    "torch_cuda": "11.8",
+    "cuda_available": true,
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "vram_bytes": 4294443008
+    },
+    "ultralytics": "8.4.114"
+  },
+  "finished_at_utc": "2026-08-03T10:14:28.837025+00:00",
+  "best_checkpoint": "C:\\Users\\Umut\\Desktop\\Train\\experiments\\baseline_yolo26n_seg_2026-08-03_v2_active_learning_round_01\\weights\\best.pt"
+}

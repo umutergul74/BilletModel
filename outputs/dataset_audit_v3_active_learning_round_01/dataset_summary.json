@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "dataset_version": "steel_billet_active_learning_round_01_2026-08-03_v3",
+  "annotation_version": "seed_plus_active_learning_round_01_v2_owner_accepted",
+  "annotation_xml_sha256": "6499e793732828b58e625eb7e915396d48321cae183d8853d0b547414cbb7b48",
+  "base_split_manifest_sha256": "d70205a0f67d61340cb267724dfd30298d66df2e453a543e9d540cfeee03384b",
+  "active_learning_manifest_sha256": "a8b24cbedbd8dac9e6d12c17262f97ef6e13545711990a78fc8184b06b0b480d",
+  "trainable_images": 99,
+  "trainable_instances": 1453,
+  "split_image_counts": {
+    "train": 79,
+    "validation": 10,
+    "test": 10
+  },
+  "split_instance_counts": {
+    "train": 1169,
+    "validation": 148,
+    "test": 136
+  },
+  "split_scene_group_counts": {
+    "train": 36,
+    "validation": 2,
+    "test": 3
+  },
+  "new_active_learning_images": 34,
+  "new_active_learning_instances": 541,
+  "holdout_groups_preserved": [
+    "scene-0003",
+    "scene-0013",
+    "scene-0027",
+    "scene-0028",
+    "scene-0041"
+  ],
+  "scene_group_leakage": {},
+  "source_hash_mismatches": [],
+  "annotated_images_missing_locally": [
+    "20260729_100242.jpg",
+    "20260729_102325.jpg",
+    "20260729_102810(0).jpg",
+    "20260729_102848.jpg",
+    "20260729_103914(0).jpg"
+  ],
+  "test_holdout_policy": "DO_NOT_USE_FOR_TUNING"
+}

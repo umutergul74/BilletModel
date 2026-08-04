@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "dataset_version": "steel_billet_local_2026-07-31_v2",
+  "annotation_version": "cvat_task_2_2026-07-31_owner_accepted",
+  "random_seed": 20260731,
+  "images_total": 662,
+  "readable_images": 662,
+  "unreadable_images": 0,
+  "dimensions": {
+    "3000x4000": 623,
+    "3060x4080": 21,
+    "6120x8160": 12,
+    "1740x4000": 1,
+    "1804x4000": 1,
+    "1830x4000": 1,
+    "2046x4000": 1,
+    "2125x4000": 1,
+    "3560x4744": 1
+  },
+  "exact_duplicate_groups": 0,
+  "exact_duplicate_images": 0,
+  "near_duplicate_pairs": 281,
+  "scene_groups": 41,
+  "exported_annotated_images": 70,
+  "annotated_images_present": 65,
+  "annotated_images_missing": [
+    "20260729_100242.jpg",
+    "20260729_102325.jpg",
+    "20260729_102810(0).jpg",
+    "20260729_102848.jpg",
+    "20260729_103914(0).jpg"
+  ],
+  "accepted_instances_total": 976,
+  "trainable_instances_present": 912,
+  "split_image_counts": {
+    "validation": 10,
+    "train": 45,
+    "test": 10
+  },
+  "split_scene_group_counts": {
+    "validation": 2,
+    "train": 15,
+    "test": 3
+  },
+  "near_duplicate_threshold": 6,
+  "capture_gap_seconds": 3
+}

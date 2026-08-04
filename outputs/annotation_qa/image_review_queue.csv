@@ -1,0 +1,76 @@
+﻿image_id,image_name,source_exists,instance_count,image_status,decision_required
+0,20260729_092432(0).jpg,True,22,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+1,20260729_092434.jpg,True,16,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+2,20260729_092437.jpg,True,11,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+3,20260729_092438.jpg,True,9,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+4,20260729_092441.jpg,True,22,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+5,20260729_092444.jpg,True,16,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+6,20260729_092446(0).jpg,True,18,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+7,20260729_092447.jpg,True,14,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+8,20260729_092449.jpg,True,13,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+9,20260729_092516.jpg,True,1,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+10,20260729_092621.jpg,True,10,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+11,20260729_092622.jpg,True,10,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+12,20260729_092644.jpg,True,7,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+13,20260729_095134.jpg,True,24,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+14,20260729_095136(0).jpg,True,25,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+15,20260729_095139(0).jpg,True,26,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+16,20260729_095144(0).jpg,True,17,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+17,20260729_095322(0).jpg,True,6,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+18,20260729_095328.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+19,20260729_095329.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+20,20260729_095330(0).jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+21,20260729_095340.jpg,True,8,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+22,20260729_095341.jpg,True,12,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+23,20260729_095344.jpg,True,10,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+24,20260729_095347(0).jpg,True,7,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+25,20260729_095354.jpg,True,10,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+26,20260729_095400.jpg,True,8,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+27,20260729_095410(0).jpg,True,7,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+28,20260729_095512(0).jpg,True,34,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+29,20260729_095513(0).jpg,True,31,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+30,20260729_095516(0).jpg,True,37,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+31,20260729_095525(0).jpg,True,23,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+32,20260729_095527.jpg,True,17,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+33,20260729_095529(0).jpg,True,23,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+34,20260729_095846(0).jpg,True,16,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+35,20260729_100057.jpg,True,15,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+36,20260729_100058.jpg,True,15,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+37,20260729_100242.jpg,False,1,REVIEW_REQUIRED,Restore the exact source image before visual verification.
+38,20260729_102145.jpg,False,0,EMPTY_FRAME_REVIEW_REQUIRED,Restore the exact source image before visual verification.
+39,20260729_102157.jpg,True,11,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+40,20260729_102204.jpg,True,2,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+41,20260729_102229(0).jpg,True,6,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+42,20260729_102230(0).jpg,True,5,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+43,20260729_102253.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+44,20260729_102258.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+45,20260729_102302(0).jpg,True,6,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+46,20260729_102321.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+47,20260729_102325.jpg,False,4,REVIEW_REQUIRED,Restore the exact source image before visual verification.
+48,20260729_102432.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+49,20260729_102439(0).jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+50,20260729_102444(0).jpg,True,3,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+51,20260729_102445.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+52,20260729_102446.jpg,True,3,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+53,20260729_102447.jpg,True,3,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+54,20260729_102509.jpg,True,7,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+55,20260729_102543.jpg,True,0,EMPTY_FRAME_REVIEW_REQUIRED,Confirm in CVAT whether this is intentionally empty or contains missing billet_front_face instances.
+56,20260729_102810(0).jpg,False,1,REVIEW_REQUIRED,Restore the exact source image before visual verification.
+57,20260729_102835(0).jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+58,20260729_102837.jpg,True,4,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+59,20260729_102848.jpg,False,2,REVIEW_REQUIRED,Restore the exact source image before visual verification.
+60,20260729_103531(0).jpg,True,3,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+61,20260729_103540(0).jpg,True,2,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+62,20260729_103736.jpg,True,24,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+63,20260729_103754(0).jpg,True,39,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+64,20260729_103803(0).jpg,True,22,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+65,20260729_103806.jpg,True,19,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+66,20260729_103816.jpg,True,27,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+67,20260729_103817.jpg,True,0,EMPTY_FRAME_REVIEW_REQUIRED,Confirm in CVAT whether this is intentionally empty or contains missing billet_front_face instances.
+68,20260729_103826.jpg,True,0,EMPTY_FRAME_REVIEW_REQUIRED,Confirm in CVAT whether this is intentionally empty or contains missing billet_front_face instances.
+69,20260729_103839(0).jpg,True,0,EMPTY_FRAME_REVIEW_REQUIRED,Confirm in CVAT whether this is intentionally empty or contains missing billet_front_face instances.
+70,20260729_103852(0).jpg,True,0,EMPTY_FRAME_REVIEW_REQUIRED,Confirm in CVAT whether this is intentionally empty or contains missing billet_front_face instances.
+71,20260729_103914(0).jpg,False,53,REVIEW_REQUIRED,Restore the exact source image before visual verification.
+72,20260729_103944(0).jpg,True,46,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+73,20260729_103947.jpg,True,42,REVIEW_REQUIRED,Confirm all visible billets are represented and no side surfaces/background/hidden geometry are included.
+74,20260729_103953(0).jpg,True,0,EMPTY_FRAME_REVIEW_REQUIRED,Confirm in CVAT whether this is intentionally empty or contains missing billet_front_face instances.

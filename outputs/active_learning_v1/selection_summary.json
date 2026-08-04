@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-01T10:44:08.588444+00:00",
+  "active_learning_id": "active_learning_v1_2026-08-01",
+  "checkpoint": "C:\\Users\\Umut\\Desktop\\Train\\experiments\\baseline_yolo26n_seg_2026-08-01_v1\\weights\\best.pt",
+  "checkpoint_sha256": "92df69b295851ec9967816dc8ddc599a63fd6696bacf10da9f71c42e68bd892b",
+  "inventory_sha256": "ee7056074d5b85bade994fb4152af629a12309cfeec267a0cb22b149e5dee5bf",
+  "unlabeled_images_total": 597,
+  "holdout_scene_groups_excluded": [
+    "scene-0003",
+    "scene-0013",
+    "scene-0027",
+    "scene-0028",
+    "scene-0041"
+  ],
+  "holdout_images_excluded": 117,
+  "eligible_before_near_duplicate_filter": 480,
+  "eligible_after_near_duplicate_filter": 449,
+  "selected_images": 60,
+  "selected_scene_groups": 34,
+  "selected_zero_detection_images": 0,
+  "source_hash_mismatches_after_inference": 0,
+  "cvat_zip": "C:\\Users\\Umut\\Desktop\\Train\\data\\annotation_batches\\active_learning_v1\\active_learning_v1_images_for_cvat.zip",
+  "cvat_zip_sha256": "6ae2145f6869edcde50660e2e0580322f9126a8ee26826c32d2e4792aed981b7",
+  "human_review_status": "REQUIRED_BEFORE_ANNOTATION_IMPORT",
+  "preannotations_included": false
+}

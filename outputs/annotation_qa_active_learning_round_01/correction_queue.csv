@@ -1,0 +1,8 @@
+image_name,action,location,human_required
+20260729_092402.jpg,ADD_MISSING_VISIBLE_FACE,right image edge; QR-labeled partial face,yes
+20260729_092508.jpg,ADD_MISSING_VISIBLE_FACE,upper-right behind the large rusted face; QR-labeled face,yes
+20260729_092532.jpg,ADD_MISSING_VISIBLE_FACE,lower-left image edge; QR-labeled partial face,yes
+20260729_095337(0).jpg,ADD_TWO_MISSING_VISIBLE_FACES,upper-right edge and lower-left edge,yes
+20260729_102304.jpg,ADD_MISSING_VISIBLE_FACE,far-left image edge; partial hot billet face,yes
+20260729_092409.jpg,REMOVE_CONSECUTIVE_DUPLICATE_VERTEX,export instance 11; point 2467.47 3002.08,no
+20260729_092532.jpg,REMOVE_CONSECUTIVE_DUPLICATE_VERTEX,export instance 2; point 1187.25 5564.43,no

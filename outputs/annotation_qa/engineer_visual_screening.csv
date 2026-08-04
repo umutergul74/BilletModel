@@ -1,0 +1,14 @@
+image_id,image_name,screening_status,observed_review_reason,required_decision
+55,20260729_102543.jpg,LIKELY_INCOMPLETE,"Zero polygons, but visible billet front-face candidate(s) appear in the source image.",Confirm missing instances and add valid visible-front-face polygons in CVAT.
+62,20260729_103736.jpg,LIKELY_INCOMPLETE,"Unmasked billet front-face candidates are visible alongside 24 annotated instances.",Reconcile every visible face and add only physically identifiable missing instances.
+63,20260729_103754(0).jpg,LIKELY_INCOMPLETE,"Dense stack contains unmasked front-face candidates alongside 39 annotated instances.",Reconcile every visible face at full resolution.
+64,20260729_103803(0).jpg,LIKELY_INCOMPLETE,"Dense stack contains unmasked front-face candidates alongside 22 annotated instances.",Reconcile every visible face at full resolution.
+65,20260729_103806.jpg,LIKELY_INCOMPLETE,"Several unmasked front-face candidates are visible in upper/lower rows.",Add missing valid instances; mark ambiguous candidates for review rather than guessing.
+66,20260729_103816.jpg,LIKELY_INCOMPLETE,"Several unmasked front-face candidates are visible in upper/lower rows.",Add missing valid instances and inspect structural warning on instance 10.
+67,20260729_103817.jpg,LIKELY_INCOMPLETE,"Zero polygons despite many visible billet front faces.",Annotate identifiable visible front faces or document a justified exclusion.
+68,20260729_103826.jpg,LIKELY_INCOMPLETE,"Zero polygons despite many visible billet front faces.",Annotate identifiable visible front faces or document a justified exclusion.
+69,20260729_103839(0).jpg,LIKELY_INCOMPLETE,"Zero polygons despite many visible billet front faces.",Annotate identifiable visible front faces or document a justified exclusion.
+70,20260729_103852(0).jpg,LIKELY_INCOMPLETE,"Zero polygons despite many visible billet front faces.",Annotate identifiable visible front faces or document a justified exclusion.
+72,20260729_103944(0).jpg,LIKELY_INCOMPLETE,"Unmasked front-face candidates remain in a dense stack with 46 annotations.",Reconcile all visible faces at full resolution.
+73,20260729_103947.jpg,LIKELY_INCOMPLETE,"Unmasked front-face candidates remain in a dense stack with 42 annotations.",Reconcile all visible faces at full resolution.
+74,20260729_103953(0).jpg,LIKELY_INCOMPLETE,"Zero polygons despite multiple visible billet front faces.",Annotate identifiable visible front faces or document a justified exclusion.

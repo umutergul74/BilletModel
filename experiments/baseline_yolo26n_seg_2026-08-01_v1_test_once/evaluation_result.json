@@ -1,0 +1,38 @@
+{
+  "completed_at_utc": "2026-08-01T10:23:31.226812+00:00",
+  "policy": {
+    "id": "baseline_yolo26n_seg_2026-08-01_v1_test_once",
+    "policy": "ONE_TIME_FROZEN_BASELINE_TEST",
+    "training_configuration_frozen": true,
+    "use_results_for_hyperparameter_tuning": false
+  },
+  "split": "test",
+  "checkpoint": "C:\\Users\\Umut\\Desktop\\Train\\experiments\\baseline_yolo26n_seg_2026-08-01_v1\\weights\\best.pt",
+  "checkpoint_sha256": "92df69b295851ec9967816dc8ddc599a63fd6696bacf10da9f71c42e68bd892b",
+  "dataset_yaml": "C:\\Users\\Umut\\Desktop\\Train\\data\\processed\\yolo_seg_v3\\dataset.yaml",
+  "dataset_yaml_sha256": "8ad3d6bf36c94f3720f5ba2dc858662a7ff6146ef66dea73259510064e026325",
+  "config_sha256": "e8c424d2927603851eec7057614ea68d90617b12aff40c0635bc8874fd062c1f",
+  "environment": {
+    "ultralytics": "8.4.114",
+    "torch": "2.7.1+cu118",
+    "cuda": "11.8",
+    "device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.8503610954511521,
+    "metrics/recall(B)": 0.7939157311955634,
+    "metrics/mAP50(B)": 0.906211615363188,
+    "metrics/mAP50-95(B)": 0.792386883312685,
+    "metrics/precision(M)": 0.8503610954511521,
+    "metrics/recall(M)": 0.7939157311955634,
+    "metrics/mAP50(M)": 0.906211615363188,
+    "metrics/mAP50-95(M)": 0.7483166548696152,
+    "fitness": 1.5407035381823002
+  },
+  "speed_ms_per_image": {
+    "preprocess": 2.3592000012286007,
+    "inference": 49.78006000746973,
+    "loss": 0.007870001718401909,
+    "postprocess": 3.4062700113281608
+  }
+}
