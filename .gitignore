@@ -6,7 +6,6 @@ venv/
 .agents/
 _governance_reference_20260731/
 *.egg-info/
-models/*.pt
 outputs/annotation_qa/overlays/
 outputs/annotation_qa/review_decisions*.json
 data/interim/
@@ -18,7 +17,6 @@ data/processed/
 *.tif
 *.tiff
 *.zip
-*.pt
 *.onnx
 /*.jpg
 /*.jpeg
@@ -27,11 +25,18 @@ data/processed/
 /*.tif
 /*.tiff
 /*.zip
-/*.pt
 /*.onnx
 outputs/
-experiments/
 data/interim/
 data/**/images/
 data/**/*.zip
+experiments/**/*.png
+experiments/**/*.jpg
+experiments/**/*.jpeg
+experiments/**/*.csv
+experiments/**/*.json
+experiments/**/*.txt
+experiments/**/*.md
+experiments/**/*.yaml
+experiments/**/*.yml
 
