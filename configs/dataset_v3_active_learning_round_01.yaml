@@ -1,0 +1,16 @@
+project:
+  dataset_version: steel_billet_active_learning_round_01_2026-08-03_v3
+  annotation_version: seed_plus_active_learning_round_01_v2_owner_accepted
+  random_seed: 20260731
+paths:
+  images: .
+  annotation_xml: data/annotations/accepted/seed_plus_active_learning_round_01_2026-08-03/annotations.xml
+  split_manifest: outputs/dataset_audit_v3_active_learning_round_01/split_manifest.csv
+  audit_output: outputs/dataset_audit_v3_active_learning_round_01
+  base_inventory: outputs/dataset_audit_v2/image_inventory.csv
+  base_split_manifest: outputs/dataset_audit_v2/split_manifest.csv
+  active_learning_manifest: data/annotation_batches/active_learning_round_01/selected_manifest.csv
+dataset:
+  missing_annotated_image_policy: EXCLUDE
+  new_active_learning_split: train
+  test_holdout_policy: DO_NOT_USE_FOR_TUNING

@@ -1,0 +1,24 @@
+active_learning:
+  id: active_learning_v1_2026-08-01
+  random_seed: 20260731
+  target_count: 60
+  max_per_scene_group: 4
+  max_zero_detection_images: 6
+  near_duplicate_hamming_threshold: 6
+model:
+  checkpoint: experiments/baseline_yolo26n_seg_2026-08-01_v1/weights/best.pt
+  image_size: 896
+  batch: 2
+  source_chunk_size: 8
+  device: 0
+  confidence_floor: 0.05
+  standard_confidence: 0.25
+data:
+  inventory: outputs/dataset_audit_v2/image_inventory.csv
+  images: .
+  excluded_holdout_splits:
+    - validation
+    - test
+output:
+  audit_dir: outputs/active_learning_v1
+  annotation_batch_dir: data/annotation_batches/active_learning_v1

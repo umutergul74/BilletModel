@@ -1,0 +1,16 @@
+schema_version: "1.0"
+recorded_at: "2026-07-31"
+decision_maker: dataset_owner
+annotation_snapshot: ../unverified/cvat_job_2_2026-07-30/annotations.xml
+decision: ACCEPT_EXISTING_MANUAL_ANNOTATIONS_AS_CORRECT
+scope:
+  cvat_job_id: 2
+  annotated_frames_accepted: 68
+  polygon_instances_accepted: 915
+  empty_frames_pending_annotation: 7
+notes:
+  - The owner explicitly chose not to use the per-instance QA review workflow.
+  - Existing manual polygons are accepted as the current baseline ground truth.
+  - Only zero-polygon CVAT frames remain pending manual annotation.
+  - Previous automated QA artifacts are retained as historical, inactive diagnostics.
+

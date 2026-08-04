@@ -1,0 +1,21 @@
+schema_version: "1.0"
+status: UNVERIFIED
+source:
+  kind: CVAT for Images 1.1 job export
+  original_path: "C:/Users/Umut/Downloads/job_2_annotations_2026_07_30_08_07_41_cvat for images 1.1.zip"
+  original_sha256: DC7C774FD1C778A8105FD211A16927703E2A6BC7741FD3F3C1CA11F50EB40CB4
+snapshot:
+  zip: original_export.zip
+  zip_sha256: DC7C774FD1C778A8105FD211A16927703E2A6BC7741FD3F3C1CA11F50EB40CB4
+  xml: annotations.xml
+  xml_sha256: B1292567EC14336942E5BFE2B5B71D533C950E1290C9205F409F73202068E486
+cvat:
+  job_id: 2
+  job_size: 75
+  created_utc: "2026-07-29 12:54:24.700374+00:00"
+  updated_utc: "2026-07-30 08:07:41.835753+00:00"
+  dumped_utc: "2026-07-30 08:47:31.288659+00:00"
+human_review:
+  status: NOT_COMPLETED
+  decisions_artifact: null
+

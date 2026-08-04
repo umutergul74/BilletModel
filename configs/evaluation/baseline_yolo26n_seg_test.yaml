@@ -1,0 +1,19 @@
+evaluation:
+  id: baseline_yolo26n_seg_2026-08-01_v1_test_once
+  policy: ONE_TIME_FROZEN_BASELINE_TEST
+  training_configuration_frozen: true
+  use_results_for_hyperparameter_tuning: false
+model:
+  checkpoint: experiments/baseline_yolo26n_seg_2026-08-01_v1/weights/best.pt
+data:
+  yaml: data/processed/yolo_seg_v3/dataset.yaml
+  split: test
+runtime:
+  image_size: 896
+  batch: 2
+  workers: 0
+  device: 0
+  seed: 20260731
+output:
+  project: experiments
+  name: baseline_yolo26n_seg_2026-08-01_v1_test_once

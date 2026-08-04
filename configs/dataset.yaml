@@ -1,0 +1,18 @@
+project:
+  dataset_version: steel_billet_local_2026-07-31_v2
+  annotation_version: cvat_task_2_2026-07-31_owner_accepted
+  random_seed: 20260731
+paths:
+  images: .
+  annotation_xml: data/annotations/accepted/cvat_task_2_2026-07-31/annotations.xml
+  split_manifest: outputs/dataset_audit_v2/split_manifest.csv
+  audit_output: outputs/dataset_audit_v2
+dataset:
+  image_extensions: [".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"]
+  near_duplicate_hamming_threshold: 6
+  capture_gap_seconds: 3
+  split_ratios:
+    train: 0.70
+    validation: 0.15
+    test: 0.15
+  missing_annotated_image_policy: EXCLUDE

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-03T08:59:40.632508+00:00",
+  "operation": "REMOVE_EXACT_CONSECUTIVE_DUPLICATE_VERTICES",
+  "source_xml": "C:\\Users\\Umut\\Desktop\\Train\\data\\annotations\\unverified\\active_learning_round_01_2026-08-03_v2\\annotations.xml",
+  "source_xml_sha256": "777a37233642210e9c15f70f0779566ef6ce4198708415f6032f97db6e152fae",
+  "output_xml": "C:\\Users\\Umut\\Desktop\\Train\\data\\annotations\\accepted\\active_learning_round_01_2026-08-03_v2\\annotations.xml",
+  "output_xml_sha256": "f19360fd1e57137815687192bd936279cc17efed311ac8a5cebde8c551cdfacc",
+  "image_count_before_after": [
+    34,
+    34
+  ],
+  "instance_count_before_after": [
+    541,
+    541
+  ],
+  "removed_vertex_count": 2,
+  "corrections": [
+    {
+      "image_id": 1,
+      "image_name": "20260729_092409.jpg",
+      "instance_index": 13,
+      "removed_consecutive_points": [
+        "2467.47,3002.08"
+      ]
+    },
+    {
+      "image_id": 5,
+      "image_name": "20260729_092532.jpg",
+      "instance_index": 8,
+      "removed_consecutive_points": [
+        "1187.25,5564.43"
+      ]
+    }
+  ]
+}

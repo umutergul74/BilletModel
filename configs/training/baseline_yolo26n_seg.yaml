@@ -1,0 +1,49 @@
+experiment:
+  id: baseline_yolo26n_seg_2026-08-01_v1
+  objective: Establish a provisional visible-front-face instance-segmentation baseline.
+  dataset_version: steel_billet_local_2026-07-31_v2
+  annotation_version: cvat_task_2_2026-07-31_owner_accepted
+  split_version: dataset_audit_v2_seed_20260731
+  status: PROVISIONAL_BASELINE
+model:
+  pretrained: yolo26n-seg.pt
+  ultralytics_version: 8.4.114
+data:
+  yaml: data/processed/yolo_seg_v3/dataset.yaml
+training:
+  epochs: 100
+  patience: 20
+  image_size: 896
+  batch: 2
+  workers: 0
+  device: 0
+  seed: 20260731
+  deterministic: true
+  optimizer: AdamW
+  initial_learning_rate: 0.001
+  cosine_learning_rate: true
+  amp: true
+  cache: false
+augmentation:
+  hsv_h: 0.01
+  hsv_s: 0.20
+  hsv_v: 0.20
+  degrees: 7.0
+  translate: 0.08
+  scale: 0.25
+  shear: 2.0
+  perspective: 0.0003
+  flip_up_down: 0.0
+  flip_left_right: 0.5
+  mosaic: 0.30
+  close_mosaic: 10
+  mixup: 0.0
+  copy_paste: 0.0
+output:
+  project: experiments
+  name: baseline_yolo26n_seg_2026-08-01_v1
+  save_period: 10
+holdout:
+  validation_used_for_model_selection: true
+  test_used_for_model_selection: false
+  test_evaluation_status: LOCKED

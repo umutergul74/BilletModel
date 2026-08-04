@@ -1,0 +1,6 @@
+numpy>=2.0,<3
+opencv-python>=4.10,<6
+Pillow>=11,<13
+PyYAML>=6,<7
+pytest>=8,<9
+ultralytics==8.4.114

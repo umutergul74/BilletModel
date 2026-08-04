@@ -1,0 +1,29 @@
+schema_version: "1.0"
+status: OWNER_ACCEPTED
+accepted_at: "2026-07-31"
+source:
+  path: "C:/Users/Umut/Desktop/Train/task_2_annotations_2026_07_31_13_51_57_cvat for images 1.1.zip"
+  sha256: 06928586FF66F04F9A4B4C3F8551117747CA4D8DBC3BB3FAD497EE6D3B0E9D19
+snapshot:
+  zip: original_export.zip
+  zip_sha256: 06928586FF66F04F9A4B4C3F8551117747CA4D8DBC3BB3FAD497EE6D3B0E9D19
+  xml: annotations.xml
+  xml_sha256: 21DFCB3B082F5C59419D025E183A9E21D8830317F4D6D5232CCA7E57BF8E5BDC
+cvat:
+  export_type: "CVAT for Images 1.1"
+  task_id: 2
+  task_name: Kutuk
+  declared_task_size: 75
+  exported_images: 70
+  annotated_images: 70
+  polygon_instances: 976
+  label: billet_front_face
+owner_decision:
+  existing_manual_labels_accepted_as_correct: true
+  per_instance_qa_retired: true
+  deleted_zero_polygon_images_accepted: true
+local_mapping:
+  matched_export_images: 65
+  missing_export_images: 5
+  missing_images_policy: EXCLUDE_FROM_TRAINING_UNTIL_RESTORED
+

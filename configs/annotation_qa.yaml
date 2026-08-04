@@ -1,0 +1,18 @@
+project:
+  name: steel_billet_front_face
+  dataset_version: raw_workspace_2026-07-31
+  annotation_version: cvat_job_2_dump_2026-07-30T08-47-31Z_unverified
+  annotation_status: UNVERIFIED
+paths:
+  images: .
+  annotation_xml: data/annotations/unverified/cvat_job_2_2026-07-30/annotations.xml
+  output: outputs/annotation_qa
+qa:
+  target_label: billet_front_face
+  boundary_tolerance_px: 2.0
+  very_small_area_ratio: 0.0005
+  overlap_intersection_over_smaller: 0.15
+  likely_duplicate_iou: 0.90
+  overlay_max_dimension: 1600
+  raster_scale: 0.25
+
